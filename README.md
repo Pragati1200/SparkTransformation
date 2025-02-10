@@ -8,8 +8,9 @@ Development Workflow:
 Develop logic on" orders "sample data.
 Test functionality on a small dataset before applying to large datasets.
 Using parallelize():
-3.Checking RDD Partitions
-4.countByValue() vs. map + reduceByKey()
+
+3. Checking RDD Partitions
+4. CountByValue() vs. map + reduceByKey()
 5. Transformations in Spark
 Narrow Transformations (No Shuffling): Data stays on the same machine.
  map(), filter(), flatMap()
@@ -17,7 +18,7 @@ Wide Transformations (Shuffling): Data is transferred between machines.
 Examples: reduceByKey(), groupByKey()
 Minimize wide transformations and perform them at the end.
 
-6.reduce() vs. reduceByKey()
+6. Reduce() vs. reduceByKey()
 
 Summary:
 
