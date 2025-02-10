@@ -15,8 +15,8 @@ Narrow Transformations (No Shuffling): Data stays on the same machine.
  map(), filter(), flatMap()
 Wide Transformations (Shuffling): Data is transferred between machines.
 Examples: reduceByKey(), groupByKey()
-
 Minimize wide transformations and perform them at the end.
+
 6.reduce() vs. reduceByKey()
 
 Summary:
