@@ -1,11 +1,12 @@
 # SparkTransformation
+
 1. Finding Premium Customers
 a)Top 10 Premium Customers:
 b)Distinct Customers with at least 1 Order:
 c)Customers with Maximum 'CLOSED' Orders:
 2. Parallelization & Industry Practices
 Development Workflow:
-Develop logic on" orders "sample data.
+Develop logic on "orders"sample data which hasve the schema: order_id, date, customer_id, order_status.
 Test functionality on a small dataset before applying to large datasets.
 Using parallelize():
 
